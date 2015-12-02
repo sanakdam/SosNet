@@ -1,4 +1,8 @@
 class UsersController < ApplicationController
+	def index
+		@user = User.all
+	end
+
   before_action :set_user, only:[:show]
   def show
   end
