@@ -9,7 +9,7 @@ class Friendship < ActiveRecord::Base
 	def deny_friendship
 		self.destroy
 	end
-
+ 
 	def cancel_friendship
 		self.destroy
 	end
